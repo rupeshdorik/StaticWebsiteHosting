@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AWS Static Website Hosting</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ================= HERO SECTION ================= -->
+
+    <header>
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-aws"></i>
+
+          <span>AWS Deployment</span>
+        </div>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#features">Features</a></li>
+
+          <li><a href="#technology">Technology</a></li>
+
+          <li><a href="#status">Status</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>
+          Static Website Hosting
+
+          <span>Using Python SDK (boto3)</span>
+        </h1>
+
+        <p>
+          Deploy websites automatically on Amazon S3 using Python, AWS SDK
+          (boto3), and AWS CLI. This project demonstrates cloud automation,
+          static website hosting, and secure deployment.
+        </p>
+
+        <div class="hero-buttons">
+          <button id="deployBtn">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+
+            Deployment Successful
+          </button>
+
+          <a href="#about">
+            <button>Learn More</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <i class="fa-brands fa-aws"></i>
+      </div>
+    </section>
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section class="about" id="about">
+      <div class="section-title">
+        <h2>About This Project</h2>
+
+        <p>
+          This project demonstrates how to automate the deployment of a static
+          website using Python, AWS SDK (boto3), Amazon S3, and AWS CLI without
+          manually uploading files.
+        </p>
+      </div>
+
+      <div class="about-container">
+        <div class="about-card">
+          <i class="fa-solid fa-code"></i>
+
+          <h3>Automation</h3>
+
+          <p>
+            Website files are uploaded automatically using a Python script
+            powered by boto3.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-cloud"></i>
+
+          <h3>Cloud Hosting</h3>
+
+          <p>
+            Amazon S3 hosts the website as a highly available static website.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-shield-halved"></i>
+
+          <h3>Secure Access</h3>
+
+          <p>
+            AWS IAM credentials authenticate the Python application securely
+            before deployment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECT FLOW ================= -->
+
+    <section class="workflow">
+      <div class="section-title">
+        <h2>Deployment Workflow</h2>
+      </div>
+
+      <div class="flow-container">
+        <div class="flow-box">
+          <i class="fa-solid fa-laptop-code"></i>
+
+          <h3>Develop</h3>
+
+          <p>Create website using HTML, CSS & JavaScript.</p>
+        </div>
+
+        <div class="arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+
+        <div class="flow-box">
+          <i class="fa-brands fa-python"></i>
+
+          <h3>Python SDK</h3>
+
+          <p>Upload files automatically using boto3.</p>
+        </div>
+
+        <div class="arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+
+        <div class="flow-box">
+          <i class="fa-brands fa-aws"></i>
+
+          <h3>Amazon S3</h3>
+
+          <p>Files are stored inside an S3 bucket.</p>
+        </div>
+
+        <div class="arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+
+        <div class="flow-box">
+          <i class="fa-solid fa-globe"></i>
+
+          <h3>Website Live</h3>
+
+          <p>Website becomes accessible through the S3 endpoint.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECT STATS ================= -->
+
+    <section class="stats">
+      <div class="stat-card">
+        <h2>4+</h2>
+
+        <p>AWS Services Used</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>100%</h2>
+
+        <p>Automated Deployment</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>3</h2>
+
+        <p>Website Files Uploaded</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>24×7</h2>
+
+        <p>Website Availability</p>
+      </div>
+    </section>
+    <!-- ================= FEATURES SECTION ================= -->
+
+    <section class="features" id="features">
+      <div class="section-title">
+        <h2>Project Features</h2>
+
+        <p>
+          This project automates the deployment of a static website using AWS
+          cloud services and Python.
+        </p>
+      </div>
+
+      <div class="feature-container">
+        <div class="feature-card">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+
+          <h3>Automatic Upload</h3>
+
+          <p>Uploads website files to Amazon S3 automatically using boto3.</p>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-solid fa-lock"></i>
+
+          <h3>Secure Authentication</h3>
+
+          <p>Uses AWS IAM credentials configured through AWS CLI.</p>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-solid fa-globe"></i>
+
+          <h3>Static Website Hosting</h3>
+
+          <p>Amazon S3 hosts the website with high availability.</p>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-solid fa-code"></i>
+
+          <h3>Python Automation</h3>
+
+          <p>Deployment is fully automated without manual uploads.</p>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-solid fa-bolt"></i>
+
+          <h3>Fast Deployment</h3>
+
+          <p>Deploy your complete website within seconds.</p>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-solid fa-laptop-code"></i>
+
+          <h3>Beginner Friendly</h3>
+
+          <p>Simple architecture that is easy to understand and explain.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TECHNOLOGIES SECTION ================= -->
+
+    <section class="technology" id="technology">
+      <div class="section-title">
+        <h2>Technologies Used</h2>
+
+        <p>Modern tools and AWS services used to build this project.</p>
+      </div>
+
+      <div class="tech-container">
+        <div class="tech-card">
+          <i class="fa-brands fa-python"></i>
+
+          <h3>Python</h3>
+
+          <p>Used to automate deployment through boto3.</p>
+        </div>
+
+        <div class="tech-card">
+          <i class="fa-brands fa-aws"></i>
+
+          <h3>Amazon S3</h3>
+
+          <p>Stores website files and provides static hosting.</p>
+        </div>
+
+        <div class="tech-card">
+          <i class="fa-solid fa-terminal"></i>
+
+          <h3>AWS CLI</h3>
+
+          <p>Configures AWS credentials securely.</p>
+        </div>
+
+        <div class="tech-card">
+          <i class="fa-solid fa-server"></i>
+
+          <h3>boto3 SDK</h3>
+
+          <p>Python SDK used to interact with AWS services.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DEPLOYMENT STATUS ================= -->
+
+    <section class="status" id="status">
+      <div class="status-box">
+        <div class="status-icon">
+          <i class="fa-solid fa-circle-check"></i>
+        </div>
+
+        <h2>Deployment Successful</h2>
+
+        <p>
+          Your website has been deployed successfully to Amazon S3 using Python
+          SDK (boto3).
+        </p>
+
+        <div class="status-details">
+          <div>
+            <h3>Bucket</h3>
+
+            <span>rupesh-static-website-2026</span>
+          </div>
+
+          <div>
+            <h3>Deployment</h3>
+
+            <span>Completed</span>
+          </div>
+
+          <div>
+            <h3>Availability</h3>
+
+            <span>24 × 7</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================= DEVELOPER SECTION ================= -->
+
+    <section class="developer">
+      <div class="section-title">
+        <h2>About the Developer</h2>
+
+        <p>
+          This project was developed as part of an AWS Cloud Computing Capstone
+          Project to demonstrate automation, cloud storage, and static website
+          hosting.
+        </p>
+      </div>
+
+      <div class="developer-card">
+        <div class="developer-icon">
+          <i class="fa-solid fa-user-graduate"></i>
+        </div>
+
+        <h2>Rupesh Dorik</h2>
+
+        <h4>Computer Engineering Student</h4>
+
+        <p>
+          Passionate about Cloud Computing, Web Development, Java Full Stack
+          Development, Data Analytics, and AWS Services. Continuously learning
+          modern technologies and building real-world projects.
+        </p>
+
+        <div class="developer-skills">
+          <span>Python</span>
+
+          <span>AWS</span>
+
+          <span>HTML</span>
+
+          <span>CSS</span>
+
+          <span>JavaScript</span>
+
+          <span>boto3</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <section class="contact">
+      <div class="section-title">
+        <h2>Project Information</h2>
+
+        <p>
+          This project demonstrates how AWS SDK (boto3) can automate static
+          website deployment on Amazon S3 without manually uploading files.
+        </p>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-card">
+          <i class="fa-solid fa-folder-open"></i>
+
+          <h3>Project</h3>
+
+          <p>Static Website Hosting using AWS SDK</p>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa-solid fa-cloud"></i>
+
+          <h3>Cloud Service</h3>
+
+          <p>Amazon S3 Static Website Hosting</p>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa-solid fa-code"></i>
+
+          <h3>Language</h3>
+
+          <p>Python with boto3 SDK</p>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa-solid fa-terminal"></i>
+
+          <h3>IDE</h3>
+
+          <p>Visual Studio Code</p>
+        </div>
+      </div>
+
+      <div class="github-btn">
+        <a href="#">
+          <button>
+            <i class="fa-brands fa-github"></i>
+
+            View Source Code
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <div class="footer-content">
+        <h2>
+          <i class="fa-brands fa-aws"></i>
+
+          AWS Static Website Hosting
+        </h2>
+
+        <p>
+          Built using HTML, CSS, JavaScript, Python, boto3, Amazon S3 and AWS
+          CLI.
+        </p>
+
+        <div class="footer-icons">
+          <a href="#home">
+            <i class="fa-solid fa-house"></i>
+          </a>
+
+          <a href="#about">
+            <i class="fa-solid fa-circle-info"></i>
+          </a>
+
+          <a href="#technology">
+            <i class="fa-solid fa-microchip"></i>
+          </a>
+
+          <a href="#status">
+            <i class="fa-solid fa-circle-check"></i>
+          </a>
+        </div>
+
+        <p class="copyright">
+          © 2026 Rupesh Dorik | AWS Cloud Capstone Project
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
